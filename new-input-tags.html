@@ -1,0 +1,87 @@
+<!doctype html>
+
+<!-- TAG lang: declara a linguagem do site-->
+<html lang="en-uk">
+
+    <head>
+        <!--[if IE]>
+            <script src="js/html5shiv.js"></script>
+        <![endif]-->
+
+        <meta charset="utf-8">
+        <title> HTML 5 - New Input Tags </title>
+    </head>
+
+    <body>
+
+        <!-- TAG header: declara a area de cabeçalho do site-->
+        <header>
+            <h1> New Input Tags in HTML 5 </h1>
+        </header>
+
+        <article>
+
+                <form>
+                    <!-- Associacao de label com objeto de input: tag FOR
+                         Campo obrigatorio: tag REQUIRED 
+                         Dica para preenchimento: tag PLACEHOLDER 
+                    -->
+                    
+                    <!-- NOME TEXT TYPE -->
+                    <label for="text">Name</label>
+                    <input type="text" id="text" placeholder="input some text" required>
+                    <br/> <br/>
+
+                    <!-- EMAIL TYPE -->
+                    <label for="email">e-mail</label>
+                    <input type="email" id="email">
+                    <br/> <br/>
+
+                    <!-- NUMBER TYPE -->
+                    <label for="number">age</label>
+                    <input type="number" id="number" min="18" max="48" step="3">
+                    <br/> <br/>
+
+                    <!-- URL TYPE -->
+                    <label for="url">url</label>
+                    <input type="url" id="url" placeholder="http://">
+                    <br/> <br/>
+
+                    <!-- SEARCH TYPE -->
+                    <label for="search">search</label>
+                    <input type="search" id="url" placeholder="input something">
+                    <br/> <br/>
+
+                    <!-- RANGE TYPE -->
+                    <label for="range">range</label>
+                    <input type="range" id="range" min="0" max="10" value="7">
+                    <br/> <br/>
+
+                    <!-- DATE TYPE -->
+                    <label for="date">date</label>
+                    <input type="date" id="date">
+                    <br/> <br/>
+
+                    <!-- COLOR TYPE -->
+                    <label for="color">color</label>
+                    <input type="color" id="color">
+                    <br/> <br/>
+
+
+                    <br/> <br/>
+                    <input type="submit" value="GO!">
+                </form>
+
+
+
+
+        </article>
+
+
+        <!-- TAG footer: declara a area de rodape do site-->
+        <footer>
+            <p align="center"> &copy; 2017 - camilobg </p>
+        </footer>
+
+    </body>
+</html>
